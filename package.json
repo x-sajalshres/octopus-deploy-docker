@@ -1,0 +1,14 @@
+{
+  "name": "octopus-deploy-docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compose:up": "docker compose --project-name octopus up -d",
+    "compose:stop": "docker compose --project-name octopus stop",
+    "compose:pull": "docker compose --project-name octopus pull",
+    "compose:logs": "docker compose --project-name octopus logs --follow"
+  },
+  "author": "",
+  "license": "ISC"
+}
